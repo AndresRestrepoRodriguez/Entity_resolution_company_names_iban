@@ -44,11 +44,6 @@ Activate the created virtual environment
 source env/bin/activate
 ```
 
-Install the necessary packages
-```
-pip install -r requirements.txt
-```
-
 Clone the repository
 ```
 git clone https://github.com/AndresRestrepoRodriguez/Entity_resolution_company_names_iban.git
@@ -57,6 +52,11 @@ git clone https://github.com/AndresRestrepoRodriguez/Entity_resolution_company_n
 Go to the repository folder
 ```
 cd Entity_resolution_company_names_iban
+```
+
+Install the necessary packages
+```
+pip install -r requirements.txt
 ```
 
 Run the script pipeline.py

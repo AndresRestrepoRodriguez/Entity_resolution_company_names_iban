@@ -8,6 +8,10 @@ import argparse
 import os
 from typing import List
 from config import *
+import warnings
+
+
+warnings.filterwarnings('ignore')
 
 
 def read_data(file_path: Path) -> pd.DataFrame:
